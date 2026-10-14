@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Kelo updates</title><link>https://github.com/tsvetomirdimitrovv/kelo-releases</link><description>Approved Kelo updates. No release has been published yet.</description><language>bg</language></channel></rss><!-- sparkle-signatures:
+edSignature: YW2BFYB7Sisd94ytWhT8MK8e7KzMwZ+7/1GYRrkzbV1CtLjxnwqGFdRa19yRzN51bCf/fBnw8QoL3DGIsR1RCA==
+length: 601
+-->
