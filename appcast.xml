@@ -1,6 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Kelo updates</title><link>https://github.com/tsvetomirdimitrovv/kelo-releases</link><description>Approved Kelo updates. No release has been published yet.</description><language>bg</language></channel></rss><!-- sparkle-signatures:
-edSignature: YW2BFYB7Sisd94ytWhT8MK8e7KzMwZ+7/1GYRrkzbV1CtLjxnwqGFdRa19yRzN51bCf/fBnw8QoL3DGIsR1RCA==
-length: 601
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Kelo updates</title>
+        <link>https://github.com/tsvetomirdimitrovv/kelo-releases</link>
+        <description>Approved Kelo updates. No release has been published yet.</description>
+        <language>bg</language>
+        <item>
+            <title>0.2.1</title>
+            <pubDate>Thu, 15 Oct 2026 10:39:53 +0300</pubDate>
+            <sparkle:version>35</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="plain-text"><![CDATA[## Kelo 0.2.1 · build 35
+
+Самостоятелна Early Access версия за **Apple Silicon · macOS 26.2+**.
+
+### Инсталиране
+Изтегли **Kelo.dmg**, отвори го и плъзни Kelo.app в Applications. Моделите се изтеглят отделно от приложението. Не са включени лични чатове, акаунти или API ключове.
+
+### Промени
+- Подписан канал за автоматични обновления и проверено резервно копие преди инсталация.
+- Директни гласови операции за приложения и браузър през нативния изпълнител, без задължителен втори текстов модел.
+- Обработка на завършване на гласов разговор и по-точно състояние след смяна на модела.
+- Изборът на видео използва наблюдавани резултати и контекст; двусмислен резултат не се обявява за изпълнена цел.
+- Запазеният Gemini API ключ е достъпен и за изрично поискано генериране на изображение, ако проектът има съответния достъп и квота.
+- Поправена синхронизация на текущия код при повторно пакетиране.
+
+### Ограничения
+Това издание **няма Apple Developer ID нотарификация**. При първо отваряне macOS може да изиска потвърждение в Privacy & Security → Open Anyway. Не изключвай защитите на macOS.
+
+Офлайн разпознаването на български още има ограничения. Продължителният гласов разговор с реален микрофон и работата на чист втори Mac не са обявени за окончателно проверени. Отделни сайтове/приложения зависят от предоставените им контроли. Облачните абонаменти и API квотите са отделни; наличен ключ не гарантира достъп до всеки модел.
+
+### Проверка и лицензи
+SHA256SUMS.txt съдържа контролните суми. Изходният код и лицензите на включените зависимости са в трите придружаващи архива и THIRD_PARTY_NOTICES.md. Файловете с изходен код са за съответствие с лицензите — не са необходими за инсталацията.
+]]></description>
+            <enclosure url="https://github.com/tsvetomirdimitrovv/kelo-releases/releases/download/v0.2.1-b35/Kelo.dmg" length="1800804753" type="application/octet-stream" sparkle:edSignature="egrx4mG4fKRtu4HpMAczLotqMIM58LATQTGS093KtPI1H4qHUzg4AOj9mjHLcA52zoe85yqv3uUi67MUk03LAA=="/>
+        </item>
+    </channel>
+</rss>
+<!-- sparkle-signatures:
+edSignature: 9zJkmIj2RmlUxDA6xPSaRq1OnZRIYnnTBLvwoj1ERFvekaKykOyAaTyrGFSuvsF4341aopX90XNXVYRSYrTBAA==
+length: 4319
 -->
